@@ -3,8 +3,8 @@ public class Task2 {
         int balance = 100;
         int added = 100;
 
-        if (added > 100) {
-            System.out.println(balance + added + (added / 100));
+        if (added > 1000) {
+            System.out.println(balance + added + (added / 1000));
         } else {
             System.out.println(balance + added);
         }
